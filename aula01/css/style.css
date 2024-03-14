@@ -1,0 +1,62 @@
+
+button{
+    cursor: pointer;
+}
+
+#botao{
+    width: 200px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2); 
+    border: 1px solid black; 
+    height: 50px; 
+    background-color: white; 
+    color: black; 
+    border-radius: 30px;
+    transition: .3s;
+}
+#botao:hover{
+    background-color: #e0e0e0;
+    cursor: pointer;
+} 
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 7.5dvh
+}
+
+#subscribe {
+    border: 1px solid transparent;
+    width: 180px;
+    height: 55px;
+    background-color: rgb(200,0,0);
+    color: rgb(245, 245, 245);
+    transition: .1s;
+    border-radius: 4px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+#subscribe:hover{
+    color: white;
+    background-color: rgb(210,10,0,1);
+   
+}
+#join{
+    width: 100px;
+    height: 55px;
+    border: 2px solid rgb(29, 155, 240);
+    background-color: white;
+    border-radius: 8px;
+    color: rgb(29, 155, 240);
+}
+
+#tweet{
+    background-color: rgb(29, 155, 240);
+    border: 1px solid rgb(29, 155, 240);
+    border-radius: 5dvh;
+    padding: 1.5dvh 4dvh;
+    color: white;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
