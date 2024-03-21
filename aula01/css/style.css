@@ -29,28 +29,36 @@ button{
 
 #subscribe {
     border: 1px solid transparent;
-    width: 180px;
-    height: 55px;
+    width: 115px;
+    height: 40px;
     background-color: rgb(200,0,0);
     color: rgb(245, 245, 245);
-    transition: .1s;
+    transition: .3s;
     border-radius: 4px;
-    font-size: 17px;
     letter-spacing: 1px;
 }
 #subscribe:hover{
-    color: white;
-    background-color: rgb(210,10,0,1);
-   
+    opacity: 0.8;
+}
+#subscribe:active{
+    opacity: 0.6;
 }
 #join{
-    width: 100px;
-    height: 55px;
+    width: 75px;
+    height: 40px;
     border: 2px solid rgb(29, 155, 240);
     background-color: white;
-    border-radius: 8px;
+    border-radius: 4px;
     color: rgb(29, 155, 240);
+    font-weight: bold;
+    transition: .3s;
 }
+#join:hover{
+    color: white;
+    background-color: blue;
+    border-color: transparent;
+}
+
 
 #tweet{
     background-color: rgb(29, 155, 240);
@@ -58,5 +66,7 @@ button{
     border-radius: 5dvh;
     padding: 1.5dvh 4dvh;
     color: white;
+    font-weight: bold;
+    font-family: Helvetica;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
 }
