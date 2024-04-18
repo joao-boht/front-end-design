@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+body{
+    background-color: #262626;
+}
+.container { 
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+.banner-header{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 50px 10px;
+    color: #FFFFFF;
+    flex-wrap: wrap;
+}
+.esquerda {
+    float: left;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+}
+.direita{
+    float: right;
+    width: 47%;
+    
+}
+nav{
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    float: right;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+img{
+    float: left;
+    width: 40px;
+}
+ul li{
+    display: block;
+    padding: 20px 10px;
+    transition: .3s;
+}
+.btn-outline {
+    background-color: #ff00c8;
+    padding: 8px 20px;
+    border: 1px solid #bd0094;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: .2s;
+}
+.btn-outline:hover {
+    background-color: #bd0094;
+}
+.btn-outline:active{
+    background-color: #f54fd1;
+    box-shadow: 0px 0px 13px 0px rgba(255,255,255,0.5);
+}
+.button-signin {
+    padding: 0px 10px 0px 0px;
+}
+.button-signin:hover{
+    background-color: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+li:hover a{
+    text-decoration: solid #FFF;
+}
+.linha{
+    border-left: 1px solid #FFF;
+    height: 30px;
+    width: 0px;
+    padding: 0px 0px 0px 30px;
+    margin-left: 10px;
+}
+.btn{
+    background-color: #ff00c8;
+    border: 1px solid #bd0094;
+    border-radius: 3px;
+    padding: 8px 20px;
+    transition: .3s;
+    text-decoration: none;
+
+}
+.btn:hover{
+    background-color: #bd0094;
+    border: 1px solid #bd0094;
+    border-radius: 3px;
+    padding: 8px 20px;
+}
+.btn:active{
+    background-color: #f54fd1;
+    box-shadow: 0px 0px 13px 0px rgba(255,255,255,0.5);
+}
+.esquerda h2 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #ff00c8;
+}
